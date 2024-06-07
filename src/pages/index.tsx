@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <main>
-      Welcome!
+      Hello, world!
     </main>
   );
 }
