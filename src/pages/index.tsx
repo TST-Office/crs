@@ -1,8 +1,9 @@
+import { Button, Icon, greet } from "@/utility/util";
 
 export default function Home() {
-  return (
-    <main>
-      Hello, world!
-    </main>
-  );
+  return <main>
+    {greet("John Doe")}
+    {<Icon name="arrow-down"/>}
+    <Button>Click me</Button>
+  </main>;
 }
